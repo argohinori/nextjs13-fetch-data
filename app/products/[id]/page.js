@@ -11,7 +11,7 @@ export default async function Page({params}) {
     console.log({ detailPost: detail })
     return (
         <div>
-            <Image src={detail.thumbnail} width="200" height="200" placegolder="thumbnail"></Image>
+        <Image src={detail.thumbnail} width="200" height="200" placegolder="thumbnail"></Image>
             <p>Brand: {detail.brand}</p>
             <p>Seri: {detail.title}</p>
             <p>Kategori: {detail.category}</p>
